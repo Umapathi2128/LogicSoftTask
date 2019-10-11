@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="deviceInfoBinding"
+            type="com.uma.logicsofttask.ui.DeviceInfoViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.DeviceInfoActivity">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/leftGuidLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="@dimen/dp20"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/rightGuidLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="@dimen/dp20" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/margin10"
+                android:text="@string/autoSync"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/autSyncSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_gravity="end|center_vertical"
+                android:padding="@dimen/margin10" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/waitingForNetwork"
+            android:textSize="@dimen/subtitle"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@id/leftGuidLine"
+            app:layout_constraintRight_toRightOf="@id/rightGuidLine"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

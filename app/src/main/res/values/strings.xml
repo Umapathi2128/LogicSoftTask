@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LogicSoftTask</string>
+
+    <string name="autoSync">Auto Sync On/Off</string>
+    <string name="sync">Sync</string>
+    <string name="waitingForNetwork">We are currently waiting for your Internet connection,
+        Once it connected we will fetch your device info and notifying you thank you</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "72032248934",
+    "firebase_url": "https://logicsofttask.firebaseio.com",
+    "project_id": "logicsofttask",
+    "storage_bucket": "logicsofttask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72032248934:android:2830a3fbed4edb6e9df9a7",
+        "android_client_info": {
+          "package_name": "com.uma.logicsofttask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72032248934-0pq14a2opcfmsfksau2jmhhad479bp9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uma.logicsofttask",
+            "certificate_hash": "5292b51cd58ae94aef0c0ab0fbe16b7f3fd80f05"
+          }
+        },
+        {
+          "client_id": "72032248934-70e88ma0e2p05n7aa1th69ecfkvfmaom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3EaaxSoWJjn17T2TauYRmiwSEtHdWFmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72032248934-70e88ma0e2p05n7aa1th69ecfkvfmaom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
